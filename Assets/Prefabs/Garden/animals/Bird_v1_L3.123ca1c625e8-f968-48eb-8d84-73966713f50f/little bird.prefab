@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1998557922078223659}
   - component: {fileID: 4893772492604205576}
   m_Layer: 0
-  m_Name: 12214_Bird_v1max_l3
+  m_Name: little bird
   m_TagString: Seleccion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5710541638218340464, guid: 7e10eadfba47b4e548fefe96d3fdf895, type: 3}
+  - {fileID: 2100000, guid: 0fc8e1c0fe06fac49a4c00fcefffe542, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

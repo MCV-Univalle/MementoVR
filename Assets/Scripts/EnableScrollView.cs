@@ -15,7 +15,7 @@ public class EnableScrollView : MonoBehaviour
     public Sprite[] spritesPressed;
     public Button[] buttons;
     public Canvas[] canvasObjects;    
-    private Scenario scenario = new Scenario(); 
+    private Scenario scenario = new Scenario();
     private int cont;     
 
     void Start () 
