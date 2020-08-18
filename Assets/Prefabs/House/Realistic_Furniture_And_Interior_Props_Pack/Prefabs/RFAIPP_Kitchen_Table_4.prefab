@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4660725931636882}
   - component: {fileID: 33343864550106774}
   - component: {fileID: 23037749221178998}
-  - component: {fileID: 64856846997438950}
   - component: {fileID: 1083258081353391418}
+  - component: {fileID: 6837534993844560303}
+  - component: {fileID: -6408123363819913009}
   m_Layer: 0
   m_Name: RFAIPP_Kitchen_Table_4
   m_TagString: Seleccion
@@ -81,20 +82,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64856846997438950
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526322879836596}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300002, guid: cc36a187af270424199e6c2769ca3a57, type: 3}
 --- !u!54 &1083258081353391418
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -111,3 +98,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &6837534993844560303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526322879836596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9822, y: 0.68799996, z: 1.5102}
+  m_Center: {x: 0, y: 0.3444, z: 0}
+--- !u!64 &-6408123363819913009
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526322879836596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: cc36a187af270424199e6c2769ca3a57, type: 3}

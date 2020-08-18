@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23005680104237802}
   - component: {fileID: 64312616927652346}
   - component: {fileID: 8394693407638013180}
+  - component: {fileID: 5783002082433221253}
   m_Layer: 0
   m_Name: RFAIPP_Chandelier_7
   m_TagString: Seleccion
@@ -112,6 +113,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &5783002082433221253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579191195130184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2836, y: 1.6079, z: 0.2792}
+  m_Center: {x: 0, y: 0.80615, z: 0}
 --- !u!1 &1782152537603680
 GameObject:
   m_ObjectHideFlags: 0

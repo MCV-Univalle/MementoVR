@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 7534421500671624150}
   - component: {fileID: 1618194208686960105}
   - component: {fileID: 5028322160082361917}
+  - component: {fileID: 4945879148346760381}
   m_Layer: 0
   m_Name: 12242_Australian_Rainbow_Lorikeet
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5624111839005776389, guid: 554c6e92e19b14903a5dadd5381ca007, type: 3}
+  - {fileID: 2100000, guid: a68bf178f4abba142bbc82636782e6e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +138,21 @@ MeshCollider:
   m_GameObject: {fileID: 8966163407736219666}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -200774148351209722, guid: 554c6e92e19b14903a5dadd5381ca007, type: 3}
+--- !u!135 &4945879148346760381
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966163407736219666}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 22
+  m_Center: {x: 0, y: -10.072303, z: 10}

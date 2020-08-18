@@ -8,10 +8,12 @@ TagManager:
   - Obstacle
   - SecondCamera
   - Button
-  - SeleccionAltura
   - BtnRotate
   - Normal
   - PanelConfiguracion
+  - Altura
+  - Scenario
+  - AlturaYRotacion
   layers:
   - Default
   - TransparentFX

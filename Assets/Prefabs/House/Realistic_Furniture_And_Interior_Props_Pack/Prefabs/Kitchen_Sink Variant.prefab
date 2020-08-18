@@ -16,35 +16,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!114 &114401292130497628
-MonoBehaviour:
+--- !u!64 &1173514777466274448
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528549476402188036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c72b3f4c374d0ba47824d73874ac6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sel: {fileID: 0}
---- !u!114 &114486658781618520
-MonoBehaviour:
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 28daf6342029013448632950ace203ef, type: 3}
+--- !u!65 &2377592611139547687
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528549476402188036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: 0
-  eraseRenderer: 0
-  originalLayer: 0
-  originalMaterials: []
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 0.86329997, z: 0.625}
+  m_Center: {x: 0, y: 0.43145, z: 0}
 --- !u!1001 &527175810279912802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52,6 +50,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1103401654268778, guid: 179d7f984df2d8e4fb2a3adad779b359, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967294
+      objectReference: {fileID: 0}
     - target: {fileID: 1459506974456422, guid: 179d7f984df2d8e4fb2a3adad779b359, type: 3}
       propertyPath: m_Name
       value: Kitchen_Sink Variant
@@ -61,6 +63,10 @@ PrefabInstance:
       value: Seleccion
       objectReference: {fileID: 0}
     - target: {fileID: 1459506974456422, guid: 179d7f984df2d8e4fb2a3adad779b359, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967294
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918589339244564, guid: 179d7f984df2d8e4fb2a3adad779b359, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967294
       objectReference: {fileID: 0}
@@ -120,32 +126,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 30
       objectReference: {fileID: 0}
-    - target: {fileID: 64043104305024154, guid: 179d7f984df2d8e4fb2a3adad779b359,
-        type: 3}
-      propertyPath: m_Convex
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1103401654268778, guid: 179d7f984df2d8e4fb2a3adad779b359, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967294
-      objectReference: {fileID: 0}
-    - target: {fileID: 1918589339244564, guid: 179d7f984df2d8e4fb2a3adad779b359, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967294
-      objectReference: {fileID: 0}
-    - target: {fileID: 64112676797749930, guid: 179d7f984df2d8e4fb2a3adad779b359,
-        type: 3}
-      propertyPath: m_Convex
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 64741558870929590, guid: 179d7f984df2d8e4fb2a3adad779b359,
-        type: 3}
-      propertyPath: m_Convex
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 64112676797749930, guid: 179d7f984df2d8e4fb2a3adad779b359, type: 3}
-    - {fileID: 64741558870929590, guid: 179d7f984df2d8e4fb2a3adad779b359, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179d7f984df2d8e4fb2a3adad779b359, type: 3}
 --- !u!1 &528549476402188036 stripped
 GameObject:
@@ -226,11 +207,5 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 64868311409531184, guid: 7c3ac8817f72a84418d0dbc9d86ff558,
-        type: 3}
-      propertyPath: m_Convex
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 64868311409531184, guid: 7c3ac8817f72a84418d0dbc9d86ff558, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c3ac8817f72a84418d0dbc9d86ff558, type: 3}

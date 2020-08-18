@@ -5,28 +5,34 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/PantallaInicioSesion.unity
     guid: 77803e12a84a9fa47a4c57b53059f677
+  - enabled: 1
+    path: Assets/Scenes/PantallaRegistro.unity
+    guid: 27449bdfdfb55444fb16d566aba70369
   - enabled: 1
     path: Assets/Scenes/PantallaMenu.unity
     guid: b70f87ac08165c84b8a5764b28a15ad7
   - enabled: 0
-    path: Assets/PantallaInicio.unity
+    path: Assets/Scenes/Not used/PantallaInicio.unity
     guid: 451df6e9909382b4fb99c35cab31a4c0
-  - enabled: 0
-    path: Assets/Scenes/PantallaRegistro.unity
-    guid: 27449bdfdfb55444fb16d566aba70369
   - enabled: 1
     path: Assets/Scenes/PantallaEditorEscenario.unity
     guid: 8a4f01220f3de5047807803a381d7a3f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/PantallaHistorial.unity
     guid: 082abd851328ab248ac533a56d8c5b2b
   - enabled: 0
-    path: Assets/Scenes/PantallaPerfil.unity
+    path: Assets/Scenes/Not used/PantallaPerfil.unity
     guid: 35141bb39a7873d43b0b8594ec1a2b55
   - enabled: 1
     path: Assets/Scenes/PantallaEditorJardin.unity
     guid: 895fd0d87cba94edeaa2660c9b1dea6c
+  - enabled: 1
+    path: Assets/Scenes/PantallaEditorEscenario2.unity
+    guid: a9d712ae1785841869e4c4738202bd0c
+  - enabled: 1
+    path: Assets/Scenes/PantallaEditorLago.unity
+    guid: bb565d51935ec984fa03a95ec1e35460
   m_configObjects: {}

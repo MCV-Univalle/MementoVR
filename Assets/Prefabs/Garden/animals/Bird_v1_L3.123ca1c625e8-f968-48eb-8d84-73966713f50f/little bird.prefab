@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 1470431315142959164}
   - component: {fileID: 7764750629543644003}
   - component: {fileID: 3493494636044221143}
+  - component: {fileID: 283056778095110672}
   m_Layer: 0
   m_Name: 12214_bird
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0fc8e1c0fe06fac49a4c00fcefffe542, type: 2}
+  - {fileID: 2100000, guid: bef12480a58d98c44b8283d0bce28300, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +138,21 @@ MeshCollider:
   m_GameObject: {fileID: 4323785874552944782}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3623221430666514700, guid: 7e10eadfba47b4e548fefe96d3fdf895, type: 3}
+--- !u!135 &283056778095110672
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4323785874552944782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0.62770003, y: 0.0018999579, z: 4.5940003}

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4023096864000816}
   - component: {fileID: 33287686350154854}
   - component: {fileID: 23256514437592392}
-  - component: {fileID: 64883465681171508}
   - component: {fileID: 4246725076602905414}
+  - component: {fileID: 8668311629752267494}
   m_Layer: 0
   m_Name: RFAIPP_Mirror_1
   m_TagString: Seleccion
@@ -81,20 +81,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64883465681171508
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900988837398842}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300002, guid: be5e2172ee26be1408976bbc926f9aae, type: 3}
 --- !u!54 &4246725076602905414
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -111,3 +97,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &8668311629752267494
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900988837398842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2198, y: 1.6212, z: 0.0723}
+  m_Center: {x: 0, y: 0, z: 0.01835}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1124242680371840084}
   - component: {fileID: 4609437791752113815}
   m_Layer: 0
-  m_Name: 13046_Abyssinian_v2_l3
+  m_Name: Abyssinian cat
   m_TagString: Seleccion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 1696415599563885656}
   - component: {fileID: 1726978866748248368}
   - component: {fileID: 6476426339791909193}
+  - component: {fileID: 1684332506313490170}
   m_Layer: 0
   m_Name: Abissinian
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1370662862759640911, guid: 4d4f0f156194f4278b73cb87d10b3134, type: 3}
+  - {fileID: 2100000, guid: ba7cab43ecb878242b254e7fd0f1220e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +138,21 @@ MeshCollider:
   m_GameObject: {fileID: 5497535834974323780}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3122445487866373741, guid: 4d4f0f156194f4278b73cb87d10b3134, type: 3}
+--- !u!65 &1684332506313490170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5497535834974323780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.2633, y: 48.171097, z: 43.947598}
+  m_Center: {x: 0.0000500679, y: 2.8793497, z: 22.1206}

@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 2300000}
   - component: {fileID: 385705942549226083}
   - component: {fileID: 4772433210359276562}
+  - component: {fileID: 5990361695741048141}
+  - component: {fileID: 858093851120480556}
   m_Layer: 0
   m_Name: rock_25
   m_TagString: Seleccion
@@ -106,8 +108,34 @@ MeshCollider:
   m_GameObject: {fileID: 100000}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300048, guid: f3fcc5cde807e0e468ed655fd5460fd6, type: 3}
+--- !u!65 &5990361695741048141
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20, y: 18.996572, z: 22.430119}
+  m_Center: {x: 0, y: 9.49438, z: 1.1306229}
+--- !u!135 &858093851120480556
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 6
+  m_Center: {x: -12, y: 5, z: 1.1306229}

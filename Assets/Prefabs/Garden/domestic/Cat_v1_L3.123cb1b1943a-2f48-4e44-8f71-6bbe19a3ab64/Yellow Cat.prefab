@@ -60,6 +60,8 @@ GameObject:
   - component: {fileID: 9050623899074384118}
   - component: {fileID: 2923467031158788552}
   - component: {fileID: 3760014666991591248}
+  - component: {fileID: 9199688908504099900}
+  - component: {fileID: 4776642333019293122}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -107,7 +109,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5819227119962715586, guid: b91025943d6f74fe5878126f2b8bce3e, type: 3}
+  - {fileID: 2100000, guid: 3abab62bea7683349b7d49003bacc853, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +139,34 @@ MeshCollider:
   m_GameObject: {fileID: 1682657440390318119}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3471805035147313068, guid: b91025943d6f74fe5878126f2b8bce3e, type: 3}
+--- !u!135 &9199688908504099900
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682657440390318119}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 12
+  m_Center: {x: 0, y: 8.186251, z: 18.80895}
+--- !u!135 &4776642333019293122
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682657440390318119}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 12
+  m_Center: {x: 0, y: -11, z: 18.8}

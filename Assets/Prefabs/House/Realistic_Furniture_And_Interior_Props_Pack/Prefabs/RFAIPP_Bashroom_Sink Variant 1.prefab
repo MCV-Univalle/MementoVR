@@ -16,6 +16,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &3797344123275210816
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2528077577143935104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1884, y: 0.15, z: 0.4671}
+  m_Center: {x: 0, y: 0.055, z: 0.23255001}
+--- !u!65 &7120706769689885460
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2528077577143935104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.2, z: 0.3}
+  m_Center: {x: 0, y: -0.13, z: 0.14}
 --- !u!1001 &2526951724688994358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83,13 +109,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 64080709984678130, guid: 59c9c077ac0267c449100685572d065e,
-        type: 3}
-      propertyPath: m_Convex
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 64080709984678130, guid: 59c9c077ac0267c449100685572d065e, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59c9c077ac0267c449100685572d065e, type: 3}
 --- !u!1001 &2526951725206258288
 PrefabInstance:
@@ -169,6 +189,11 @@ PrefabInstance:
     - target: {fileID: 64486991493150234, guid: cdcdf409a1ad5814cba2e03a2762ec7a,
         type: 3}
       propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64486991493150234, guid: cdcdf409a1ad5814cba2e03a2762ec7a,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

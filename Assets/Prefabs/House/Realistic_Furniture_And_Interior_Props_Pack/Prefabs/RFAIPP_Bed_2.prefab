@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 23300088568227306}
   - component: {fileID: 64406355898021620}
   - component: {fileID: 8777417367570729513}
+  - component: {fileID: 7070354097441501955}
+  - component: {fileID: 8608721191448995382}
   m_Layer: 0
   m_Name: RFAIPP_Bed_2
   m_TagString: Seleccion
@@ -29,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1267746800574586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 30, y: 30, z: 30}
+  m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -90,7 +92,7 @@ MeshCollider:
   m_GameObject: {fileID: 1267746800574586}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
@@ -111,3 +113,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &7070354097441501955
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267746800574586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8074, y: 0.5, z: 0.1}
+  m_Center: {x: 0, y: 0.75, z: -1}
+--- !u!65 &8608721191448995382
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267746800574586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8074, y: 0.5, z: 2.0848}
+  m_Center: {x: 0, y: 0.25, z: 0}

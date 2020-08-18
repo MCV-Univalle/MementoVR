@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8294968430638186346}
   - component: {fileID: 1111316984465064899}
   m_Layer: 0
-  m_Name: 12225_Dog_v1_L2
+  m_Name: Black dog
   m_TagString: Seleccion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,6 +60,10 @@ GameObject:
   - component: {fileID: 8482776957350869854}
   - component: {fileID: 8000270290690726517}
   - component: {fileID: 6803299675298353020}
+  - component: {fileID: 6484943058110164826}
+  - component: {fileID: 6307234867508853609}
+  - component: {fileID: 1442689427437660344}
+  - component: {fileID: 1424159283010828229}
   m_Layer: 0
   m_Name: Dog_body
   m_TagString: Untagged
@@ -107,7 +111,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3718803893374078323, guid: 4a497fb006736496785cef0ad941de98, type: 3}
+  - {fileID: 2100000, guid: a607d7cb7ba20974a81c0a229396385f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +141,60 @@ MeshCollider:
   m_GameObject: {fileID: 7209179432449535436}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6192074073716120238, guid: 4a497fb006736496785cef0ad941de98, type: 3}
+--- !u!65 &6484943058110164826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209179432449535436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.334599, y: 13, z: 30}
+  m_Center: {x: 0, y: -20, z: 15}
+--- !u!65 &6307234867508853609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209179432449535436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.334599, y: 13, z: 30}
+  m_Center: {x: 0, y: 23, z: 15}
+--- !u!65 &1442689427437660344
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209179432449535436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.334599, y: 55, z: 30}
+  m_Center: {x: 0, y: 0, z: 35}
+--- !u!135 &1424159283010828229
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209179432449535436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 12
+  m_Center: {x: 0, y: -35, z: 55}

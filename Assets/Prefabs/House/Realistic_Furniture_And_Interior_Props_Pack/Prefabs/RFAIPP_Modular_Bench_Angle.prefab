@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 4058586550744084}
   - component: {fileID: 33993037798020014}
   - component: {fileID: 23107400850700606}
-  - component: {fileID: 64490582353952998}
   - component: {fileID: 8667993550911826803}
+  - component: {fileID: 6731607566747340845}
+  - component: {fileID: 2970097201835254906}
+  - component: {fileID: 1574380788226357569}
   m_Layer: 0
   m_Name: RFAIPP_Modular_Bench_Angle
   m_TagString: Seleccion
@@ -81,20 +83,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64490582353952998
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591941904930906}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300002, guid: e7714c3cfeb0c3c4dbbfca97c4c2e3e6, type: 3}
 --- !u!54 &8667993550911826803
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -111,3 +99,43 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &6731607566747340845
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591941904930906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7, y: 1.2509, z: 0.5}
+  m_Center: {x: 0.25, y: 0.62685, z: 0.35}
+--- !u!65 &2970097201835254906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591941904930906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1.217, y: 1.2509, z: 0.7}
+  m_Center: {x: 0, y: 0.62685, z: -0.25}
+--- !u!64 &1574380788226357569
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591941904930906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: e7714c3cfeb0c3c4dbbfca97c4c2e3e6, type: 3}

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7214085477371507152}
   - component: {fileID: 911145365079496365}
   - component: {fileID: 6556099088241440859}
+  - component: {fileID: 6261357446242594445}
   m_Layer: 0
   m_Name: amazon_parrot
   m_TagString: Seleccion
@@ -106,11 +107,24 @@ MeshCollider:
   m_GameObject: {fileID: 2188992830731715967}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2878835296886975004, guid: 0e7982f01e4114367aa70502b177ce1e, type: 3}
+--- !u!135 &6261357446242594445
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2188992830731715967}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 15.68005
+  m_Center: {x: -1.2481499, y: 0, z: 9.602552}
 --- !u!1 &3575500947760222943
 GameObject:
   m_ObjectHideFlags: 0

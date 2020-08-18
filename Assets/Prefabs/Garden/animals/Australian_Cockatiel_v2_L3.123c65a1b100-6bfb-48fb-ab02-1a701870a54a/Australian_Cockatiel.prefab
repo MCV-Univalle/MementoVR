@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7589815141621487786}
   - component: {fileID: 5548248841516403565}
   - component: {fileID: 4442623292630874031}
+  - component: {fileID: 2491804109105569504}
   m_Layer: 0
   m_Name: 12238_Australian_Cockatiel
   m_TagString: Untagged
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7491985446417953272, guid: 728e92043c3454e10b312f6887609f9f, type: 3}
+  - {fileID: 2100000, guid: 996dff9e0b60b264c89e47bdd0d08fbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89,11 +90,24 @@ MeshCollider:
   m_GameObject: {fileID: 853203210991355271}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3332571308550023407, guid: 728e92043c3454e10b312f6887609f9f, type: 3}
+--- !u!135 &2491804109105569504
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853203210991355271}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8
+  m_Center: {x: 0, y: -4.7902493, z: 5}
 --- !u!1 &5777672053146178647
 GameObject:
   m_ObjectHideFlags: 0

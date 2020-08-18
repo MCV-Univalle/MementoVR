@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2300000}
   - component: {fileID: 2288277295742646059}
   - component: {fileID: 5484430922087362610}
+  - component: {fileID: 1362389468040945396}
   m_Layer: 0
   m_Name: parkchair
   m_TagString: Seleccion
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: 15.901846, y: 6.159115, z: -13.110134}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -90,7 +91,7 @@ MeshCollider:
   m_GameObject: {fileID: 100000}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
@@ -111,3 +112,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &1362389468040945396
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 87.42239, y: 38.254997, z: 43.955345}
+  m_Center: {x: -0.000005722046, y: 0.0000009536745, z: 21.906563}

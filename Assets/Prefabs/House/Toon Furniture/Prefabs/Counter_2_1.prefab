@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3374618}
   - component: {fileID: 2388466}
   - component: {fileID: 54407297167250000}
-  - component: {fileID: 64441154123608312}
+  - component: {fileID: 3553862866386964325}
   m_Layer: 0
   m_Name: Counter_2_1
   m_TagString: Seleccion
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 174636}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
   m_LocalPosition: {x: 1.6, y: 0.12, z: 3.91}
-  m_LocalScale: {x: 800, y: 800, z: 800}
+  m_LocalScale: {x: 1100, y: 1100, z: 1100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -56,6 +56,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -67,6 +68,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -95,8 +97,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!64 &64441154123608312
-MeshCollider:
+--- !u!65 &3553862866386964325
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -105,7 +107,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300002, guid: ae9314f65922b7b42b043064aeaaa155, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.020000009, y: 0.020381257, z: 0.024524545}
+  m_Center: {x: 0, y: -0.0006686294, z: 0.012262273}

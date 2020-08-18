@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1391816333555145779}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 697.15796, y: 1.000001, z: 950.8433}
-  m_LocalScale: {x: 30, y: 30, z: 30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1391816333555105815}
   m_Father: {fileID: 0}
@@ -80,6 +80,7 @@ GameObject:
   - component: {fileID: 1391816333554335799}
   - component: {fileID: 1391816333553206007}
   - component: {fileID: 1434140385506352066}
+  - component: {fileID: 1109214307625715898}
   m_Layer: 0
   m_Name: F_foliageplant_09_LOD0_01
   m_TagString: Untagged
@@ -96,7 +97,7 @@ Transform:
   m_GameObject: {fileID: 1391816333555145783}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 40, y: 40, z: 40}
   m_Children: []
   m_Father: {fileID: 1391816333555105811}
   m_RootOrder: 0
@@ -127,7 +128,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9a4236c253a159c449e6bc54a40836bd, type: 2}
+  - {fileID: 2100000, guid: 027259735071e9f4e953028563631e34, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -157,8 +158,21 @@ MeshCollider:
   m_GameObject: {fileID: 1391816333555145783}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a07d1aa7e785c5c42b299ac0cddcca95, type: 3}
+--- !u!135 &1109214307625715898
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391816333555145783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.16
+  m_Center: {x: 0.0009576231, y: 0.23, z: -0.00086101145}

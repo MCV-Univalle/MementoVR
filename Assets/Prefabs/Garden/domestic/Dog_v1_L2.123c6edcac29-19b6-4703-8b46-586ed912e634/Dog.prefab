@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 1267142244465333608}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 699.0804, y: 1, z: 968.54016}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 1645548077598980915}
   m_Father: {fileID: 0}
@@ -60,6 +60,8 @@ GameObject:
   - component: {fileID: 2408255459470959439}
   - component: {fileID: 4311524117537243748}
   - component: {fileID: 8349774515236415041}
+  - component: {fileID: 4102712626226409493}
+  - component: {fileID: 3128652870419279691}
   m_Layer: 0
   m_Name: Dog_body
   m_TagString: Untagged
@@ -107,7 +109,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3718803893374078323, guid: dce781292629246f28e062fcbee298cc, type: 3}
+  - {fileID: 2100000, guid: dc966f7d092730643afe385c26637c50, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +139,34 @@ MeshCollider:
   m_GameObject: {fileID: 3521552508597695965}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6192074073716120238, guid: dce781292629246f28e062fcbee298cc, type: 3}
+--- !u!65 &4102712626226409493
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3521552508597695965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.337999, y: 33, z: 30}
+  m_Center: {x: 0, y: 0, z: 15}
+--- !u!135 &3128652870419279691
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3521552508597695965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8
+  m_Center: {x: 0, y: -19, z: 28}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 853120006353476135}
   - component: {fileID: 3705313003663906202}
   m_Layer: 0
-  m_Name: 12260_Bird_Toucan_v3_l2
+  m_Name: Toucan
   m_TagString: Seleccion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 7821989185908367205}
   - component: {fileID: 3782531220089036491}
   - component: {fileID: 3903565646331157948}
+  - component: {fileID: 3889772594149330598}
   m_Layer: 0
   m_Name: 12260_Bird_Toucan
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3440178480057328056, guid: d9fbef9f9ed094ae48f3382ffca510d7, type: 3}
+  - {fileID: 2100000, guid: e07b03151d036cb4482e0861f251fbb1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +138,21 @@ MeshCollider:
   m_GameObject: {fileID: 5488943326612124464}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4076012072274230437, guid: d9fbef9f9ed094ae48f3382ffca510d7, type: 3}
+--- !u!135 &3889772594149330598
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5488943326612124464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 10
+  m_Center: {x: -6.3322, y: -0.0004999639, z: 11.4593525}

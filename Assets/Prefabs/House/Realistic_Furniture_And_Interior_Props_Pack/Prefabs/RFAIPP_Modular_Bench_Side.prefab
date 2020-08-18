@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4983226129233410}
   - component: {fileID: 33608239409549976}
   - component: {fileID: 23687108166473344}
-  - component: {fileID: 64256794907261444}
   - component: {fileID: 7893033196879690541}
+  - component: {fileID: 830098000185708593}
+  - component: {fileID: -4206513023727475061}
   m_Layer: 0
   m_Name: RFAIPP_Modular_Bench_Side
   m_TagString: Seleccion
@@ -81,20 +82,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64256794907261444
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1966290377642824}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300002, guid: 48efc33a61bcc49469524c6ddb7b3ebb, type: 3}
 --- !u!54 &7893033196879690541
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -111,3 +98,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &830098000185708593
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966290377642824}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1.224, y: 1.2494, z: 0.7254}
+  m_Center: {x: 0, y: 0.6253, z: 0}
+--- !u!64 &-4206513023727475061
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966290377642824}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 48efc33a61bcc49469524c6ddb7b3ebb, type: 3}

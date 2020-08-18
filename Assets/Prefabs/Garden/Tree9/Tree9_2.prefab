@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 2346822}
   - component: {fileID: 54855462833785710}
   - component: {fileID: 64185316151698670}
+  - component: {fileID: 476694818776973238}
+  - component: {fileID: 7577704324104605733}
   m_Layer: 0
   m_Name: Tree9_2
   m_TagString: Seleccion
@@ -84,7 +86,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -117,11 +119,37 @@ MeshCollider:
   m_GameObject: {fileID: 114418}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4303498}
+--- !u!135 &476694818776973238
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 8
+  m_Center: {x: -0.6987395, y: 15, z: -3}
+--- !u!65 &7577704324104605733
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 8, z: 2}
+  m_Center: {x: 0, y: 4, z: 0}
 --- !u!21 &2129798
 Material:
   serializedVersion: 6
