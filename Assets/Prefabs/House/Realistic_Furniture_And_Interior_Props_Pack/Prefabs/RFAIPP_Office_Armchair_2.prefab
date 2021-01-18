@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4721002665768336}
   - component: {fileID: 33939095851059042}
   - component: {fileID: 23913744593934454}
-  - component: {fileID: 64546964974859434}
   - component: {fileID: 5155145700897436202}
+  - component: {fileID: 6173735420597777664}
+  - component: {fileID: -413917001868456378}
   m_Layer: 0
   m_Name: RFAIPP_Office_Armchair_2
   m_TagString: Seleccion
@@ -81,20 +82,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64546964974859434
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1953410116667210}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300002, guid: ba3d875b72743654eb89c6e091233f26, type: 3}
 --- !u!54 &5155145700897436202
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -111,3 +98,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &6173735420597777664
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953410116667210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7068, y: 1.0644, z: 0.7658}
+  m_Center: {x: 0, y: 0.5317, z: 0}
+--- !u!64 &-413917001868456378
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953410116667210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: ba3d875b72743654eb89c6e091233f26, type: 3}

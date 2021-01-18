@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9171932721223436881}
   - component: {fileID: 1248457150254104261}
   m_Layer: 0
-  m_Name: plants1
+  m_Name: plants
   m_TagString: Seleccion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 3217525267673163630}
   - component: {fileID: 5973642251060392772}
   - component: {fileID: 1707350941423315011}
+  - component: {fileID: 5763390338507067099}
   m_Layer: 0
   m_Name: 1coreopsi
   m_TagString: Untagged
@@ -145,8 +146,21 @@ MeshCollider:
   m_GameObject: {fileID: 7115694803232689504}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7003673230136672189, guid: cc7537307d7c44a5d8080d9c842c0345, type: 3}
+--- !u!135 &5763390338507067099
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7115694803232689504}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 450
+  m_Center: {x: 102.80989, y: 194.32709, z: 89.74779}

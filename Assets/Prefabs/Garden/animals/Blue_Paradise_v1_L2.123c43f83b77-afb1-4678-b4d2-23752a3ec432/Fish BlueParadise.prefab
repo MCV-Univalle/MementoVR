@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 4091307284147702464}
   - component: {fileID: 8939582045079508864}
   - component: {fileID: 3390949173902522716}
+  - component: {fileID: 320623734033233927}
+  - component: {fileID: 3213209010090699159}
   m_Layer: 0
   m_Name: 12997_BlueParadise
   m_TagString: Untagged
@@ -59,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8269772712739323695, guid: be38be2fc018941d0a0f740da66320da, type: 3}
+  - {fileID: 2100000, guid: fe83035cd3b6b544bbacea1c310852d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89,11 +91,37 @@ MeshCollider:
   m_GameObject: {fileID: 391853498457074050}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3453041998933266687, guid: be38be2fc018941d0a0f740da66320da, type: 3}
+--- !u!135 &320623734033233927
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391853498457074050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2
+  m_Center: {x: 1.5, y: 0, z: 1.2904503}
+--- !u!135 &3213209010090699159
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391853498457074050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2
+  m_Center: {x: -1.5, y: 0, z: 1.2904503}
 --- !u!1 &4880372561305544873
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3027022609490132253}
   - component: {fileID: 1722655651352809032}
   m_Layer: 0
-  m_Name: 13047_Scottish_Fold_v2_l3
+  m_Name: Scottish_Fold
   m_TagString: Seleccion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 1659415511318487680}
   - component: {fileID: 4748321198579464100}
   - component: {fileID: 2821857727012159209}
+  - component: {fileID: 4675265490596345819}
   m_Layer: 0
   m_Name: Scottish_Fold
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3127052838579610367, guid: a6a47f3e785f14fc5b7a83bf78a646a9, type: 3}
+  - {fileID: 2100000, guid: 7828b6e2b72b6fb4a82d55cb01b275c6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +138,21 @@ MeshCollider:
   m_GameObject: {fileID: 5929244678577649701}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8458479526356928953, guid: a6a47f3e785f14fc5b7a83bf78a646a9, type: 3}
+--- !u!65 &4675265490596345819
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5929244678577649701}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.436799, y: 40, z: 35.390396}
+  m_Center: {x: 0, y: -3, z: 17.465298}

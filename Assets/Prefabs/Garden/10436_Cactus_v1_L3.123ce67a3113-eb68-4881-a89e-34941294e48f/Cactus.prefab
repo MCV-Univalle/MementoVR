@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 7853536969553021362}
   - component: {fileID: 2254909446133747826}
   - component: {fileID: 5285406464527529060}
+  - component: {fileID: 8678396161717496330}
   m_Layer: 0
   m_Name: 10436_Cactus_v1
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 363582049732912902, guid: 9ddea948c74d74e1898a63931191cdc8, type: 3}
+  - {fileID: 2100000, guid: 36b5cb518b389a244befe16f02434eea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +138,21 @@ MeshCollider:
   m_GameObject: {fileID: 4565999638004407066}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7292479287088283242, guid: 9ddea948c74d74e1898a63931191cdc8, type: 3}
+--- !u!135 &8678396161717496330
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4565999638004407066}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 50
+  m_Center: {x: -0.029949188, y: 2.8644006, z: 80}

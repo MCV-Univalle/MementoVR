@@ -3,66 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
+using Proyecto26;
 
-public class Scenario : MonoBehaviour
-{
-    public GameObject[] objects;
-    public DateTime initTime;      
-    public DateTime finishTime;
-    private int cont;
-    private Button[] btns;
+[System.Serializable]
+public class Scenario
+{    
+    public string init;
+    public string finish;
+    public string date;
+    public string duration;
+    public string scenarioName;
+    public string userID;
 
-    void Start() {
-        //SelectObject obj;        
-        initTime = DateTime.Now;
-        Debug.Log(initTime);
+    public Scenario() {            
+        init = ScenarioData.initialTime.ToString();
+        finish = ScenarioData.finishTime.ToString();
+        duration = ScenarioData.duration.ToString();
+        date = ScenarioData.date;//.ToString();
+        scenarioName = ScenarioData.scenarioName; 
+        userID = ScenarioData.userID;
     }
-
-    void Update()
-    {
-        objects = GameObject.FindGameObjectsWithTag("Seleccion");
-        //cont = objects.Length;
-        SetCont(objects.Length);
-        //Debug.Log(cont);         
-    }     
-
-    private void SetCont(int contador)
-    {
-        this.cont = contador;
-    }
-
-    public int GetCont()
-    {
-        return this.cont;
-    }
-
-    /* public void DissableButton()
-    {
-        if (cont == 99)
-        {
-            for (int i = 0; i < cont; i++)
-            {
-                btns[i] = GameObject.FindGameObjectWithTag("Button").GetComponent<Button>();
-                btns[i] = GameObject.FindGameObjectWithTag("BtnRotate").GetComponent<Button>();
-                btns[i] = GameObject.FindGameObjectWithTag("Normal").GetComponent<Button>();
-
-                btns[i].interactable = false;
-            }                        
-        } else
-        {
-            
-        }
-    } */
-
-    public void SaveScenario()
-    {
-        finishTime = DateTime.Now;
-        SaveGame.Save(this);        
-    }    
-
-    // public void LoadScenario()
-    // {
-    //     SaveGame.Load();
-    // }
-
 }

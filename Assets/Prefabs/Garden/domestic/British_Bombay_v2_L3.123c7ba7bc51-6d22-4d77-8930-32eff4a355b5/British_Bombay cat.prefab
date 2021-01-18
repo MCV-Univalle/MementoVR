@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1512204266283006159}
   - component: {fileID: 1761459307660877156}
   - component: {fileID: 4089303975764251842}
+  - component: {fileID: 1671154097192935432}
   m_Layer: 0
   m_Name: British_bombay
   m_TagString: Untagged
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8051185325437860947, guid: 55e113cd8b22e4c02a4d90c24a65959c, type: 3}
+  - {fileID: 2100000, guid: ae021bfd7e31fb04d81125962d91fc31, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89,11 +90,24 @@ MeshCollider:
   m_GameObject: {fileID: 595083654688504027}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2507268884049092571, guid: 55e113cd8b22e4c02a4d90c24a65959c, type: 3}
+--- !u!65 &1671154097192935432
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595083654688504027}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.692099, y: 48.787907, z: 45.078102}
+  m_Center: {x: 0.0017499923, y: -0.015649797, z: 22.679352}
 --- !u!1 &2079831962692456177
 GameObject:
   m_ObjectHideFlags: 0

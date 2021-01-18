@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 23607154869437732}
   - component: {fileID: 64366840167805482}
   - component: {fileID: 3480431787192327141}
+  - component: {fileID: 2474097360275367271}
+  - component: {fileID: 2209336173581510203}
   m_Layer: 0
   m_Name: RFAIPP_Console_1
   m_TagString: Seleccion
@@ -111,3 +113,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &2474097360275367271
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455982900721268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0754, y: 0.32, z: 0.3454}
+  m_Center: {x: 0, y: 0.57, z: 0}
+--- !u!65 &2209336173581510203
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455982900721268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 0.4, z: 0.3}
+  m_Center: {x: 0, y: 0.2, z: 0}

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9151305972318799628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9151305972318799626}
+  - component: {fileID: 9151305972318799627}
+  m_Layer: 0
+  m_Name: ChangeScrollView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9151305972318799626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9151305972318799628}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 108.95203, y: -150.08856, z: -60.73065}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9151305972318799627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9151305972318799628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce71d8ec9c2c9114cbc770e71b5c1c15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: b0b8e701a1ff7594188356b06c96fdab, type: 3}
+  - {fileID: 21300000, guid: f4cd8b9a0dc50da4b97355ee5fca1950, type: 3}
+  - {fileID: 21300000, guid: d95109ff5e5085c418e0c566928496b3, type: 3}
+  - {fileID: 21300000, guid: f80d77a1cf424694ebdf83ce936900da, type: 3}
+  - {fileID: 21300000, guid: 6eecdd77a20b8ce4cbf82fc8369bb882, type: 3}
+  spritesPressed:
+  - {fileID: 21300000, guid: 903e01aca34f05249bde70a2af120f4d, type: 3}
+  - {fileID: 21300000, guid: f73c5f48a4022ee4ebadd3926d16c267, type: 3}
+  - {fileID: 21300000, guid: 258dcb9fefe66024e90031500bc6548e, type: 3}
+  - {fileID: 21300000, guid: 303018a970e4a7a4899df59100444c3d, type: 3}
+  - {fileID: 21300000, guid: da46ba4906b55824997eea0f2fa66a77, type: 3}
+  buttons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  canvasObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5341066551092417944}
   - component: {fileID: 5728947348116770096}
   - component: {fileID: 5263991376994908645}
-  - component: {fileID: 2374328717497640599}
+  - component: {fileID: 8681204738595503575}
   m_Layer: 0
   m_Name: Cat_body
   m_TagString: Untagged
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5819227119962715586, guid: bfd4c58a4f9994c0bbab013a0c880798, type: 3}
+  - {fileID: 2100000, guid: ce494979f56f1cc4494e52381821ba05, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,8 +80,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &2374328717497640599
-MeshCollider:
+--- !u!65 &8681204738595503575
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,10 +90,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1052601161204637414, guid: bfd4c58a4f9994c0bbab013a0c880798, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 11.695899, y: 65.98079, z: 39.389896}
+  m_Center: {x: 0.00015020369, y: 11.296999, z: 19.831549}
 --- !u!1 &8383159654139537411
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,7 +104,7 @@ GameObject:
   - component: {fileID: 4759652326775020048}
   - component: {fileID: 2246090259609981807}
   m_Layer: 0
-  m_Name: 12223_Cat_v1_l3
+  m_Name: Cat
   m_TagString: Seleccion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

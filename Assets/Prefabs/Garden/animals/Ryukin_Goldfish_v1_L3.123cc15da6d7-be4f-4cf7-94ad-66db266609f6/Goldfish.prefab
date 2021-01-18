@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1129774493884170330}
   - component: {fileID: 2659827864704273118}
   m_Layer: 0
-  m_Name: 13001_Ryukin_Goldfish_v1_L3
+  m_Name: Goldfish
   m_TagString: Seleccion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 2530085405259612362}
   - component: {fileID: 8874498779950996672}
   - component: {fileID: 6209970589826582825}
+  - component: {fileID: 4077885608735641894}
   m_Layer: 0
   m_Name: Ryukin_Goldfish
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1850121052685875404, guid: 4f529dda1021649d4a3d40c4db111b35, type: 3}
+  - {fileID: 2100000, guid: ad53ea5b96b37a14bb29a27e60a2c6c3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +138,21 @@ MeshCollider:
   m_GameObject: {fileID: 7878152418598724425}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6308490726767448570, guid: 4f529dda1021649d4a3d40c4db111b35, type: 3}
+--- !u!135 &4077885608735641894
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7878152418598724425}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4
+  m_Center: {x: 0, y: 0, z: 0}

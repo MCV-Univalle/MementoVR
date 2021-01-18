@@ -60,6 +60,8 @@ GameObject:
   - component: {fileID: 204788397041214003}
   - component: {fileID: 4903180075523848530}
   - component: {fileID: 133994908999519445}
+  - component: {fileID: 6487163126142641049}
+  - component: {fileID: 3421918579187324421}
   m_Layer: 0
   m_Name: 10455_Sunflower_v1_SG
   m_TagString: Untagged
@@ -107,7 +109,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1477017984448373807, guid: acfd10bdcc63f44f6b5249f31efaf6d3, type: 3}
+  - {fileID: 2100000, guid: 059d01ce2baa0b640bf27a2d9c572443, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -137,8 +139,34 @@ MeshCollider:
   m_GameObject: {fileID: 2943134199395911505}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2101294315712704316, guid: acfd10bdcc63f44f6b5249f31efaf6d3, type: 3}
+--- !u!65 &6487163126142641049
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943134199395911505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20, y: 20, z: 60}
+  m_Center: {x: -1.83955, y: -0.8864002, z: 30}
+--- !u!65 &3421918579187324421
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943134199395911505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 55.3225, y: 55.5148, z: 100}
+  m_Center: {x: -1.83955, y: -0.8864002, z: 110}

@@ -103,6 +103,9 @@ GameObject:
   - component: {fileID: 2300002}
   - component: {fileID: 54394717820042948}
   - component: {fileID: 64250244594254128}
+  - component: {fileID: 1143625385186858634}
+  - component: {fileID: 785583752318566197}
+  - component: {fileID: 217522796291676259}
   m_Layer: 0
   m_Name: Tree_Dracaena2
   m_TagString: Seleccion
@@ -206,8 +209,47 @@ MeshCollider:
   m_GameObject: {fileID: 100002}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 79477bebd13c8c84e983ef512ab6f55f, type: 3}
+--- !u!65 &1143625385186858634
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 14.801082, z: 2}
+  m_Center: {x: 0, y: 7.400541, z: 0}
+--- !u!135 &785583752318566197
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4
+  m_Center: {x: 5, y: 8, z: -2}
+--- !u!135 &217522796291676259
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0, y: 14, z: -0.43353236}

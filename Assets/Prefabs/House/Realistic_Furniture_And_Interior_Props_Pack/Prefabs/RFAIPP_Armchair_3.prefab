@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23029523408875460}
   - component: {fileID: 64959190844818322}
   - component: {fileID: 1145504933831158802}
+  - component: {fileID: 5571501305912162417}
   m_Layer: 0
   m_Name: RFAIPP_Armchair_3
   m_TagString: Seleccion
@@ -111,3 +112,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &5571501305912162417
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613722985377998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6354, y: 0.77070004, z: 0.6942}
+  m_Center: {x: 0, y: 0.38705, z: 0}

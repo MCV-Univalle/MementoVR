@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2032197692923282884, guid: e4708506d668c4ecd8e2c4cac6dc769c, type: 3}
+  - {fileID: 2100000, guid: c22af1378d07fda46951c1227b324b43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -152,7 +152,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5543242467722539262, guid: e4708506d668c4ecd8e2c4cac6dc769c, type: 3}
+  - {fileID: 2100000, guid: c22af1378d07fda46951c1227b324b43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -231,7 +231,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7914252777899228402, guid: e4708506d668c4ecd8e2c4cac6dc769c, type: 3}
+  - {fileID: 2100000, guid: c22af1378d07fda46951c1227b324b43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -310,7 +310,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7788429697384191735, guid: e4708506d668c4ecd8e2c4cac6dc769c, type: 3}
+  - {fileID: 2100000, guid: c22af1378d07fda46951c1227b324b43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -342,7 +342,7 @@ GameObject:
   - component: {fileID: 8061486871298917469}
   - component: {fileID: 3069928100237602626}
   m_Layer: 0
-  m_Name: 12970_snowdrop_flower_v1_l2
+  m_Name: snowdrop_flower
   m_TagString: Seleccion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -441,7 +441,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2822512462331607014, guid: e4708506d668c4ecd8e2c4cac6dc769c, type: 3}
+  - {fileID: 2100000, guid: c22af1378d07fda46951c1227b324b43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

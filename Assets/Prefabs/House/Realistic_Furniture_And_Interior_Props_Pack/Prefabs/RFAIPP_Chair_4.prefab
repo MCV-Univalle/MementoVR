@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23729317886966194}
   - component: {fileID: 64205258745507484}
   - component: {fileID: 4710255733233151458}
+  - component: {fileID: 6078023040036378409}
   m_Layer: 0
   m_Name: RFAIPP_Chair_4
   m_TagString: Seleccion
@@ -111,3 +112,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &6078023040036378409
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193804665522800}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.458, y: 0.8678, z: 0.6226}
+  m_Center: {x: 0, y: 0.4346, z: 0}

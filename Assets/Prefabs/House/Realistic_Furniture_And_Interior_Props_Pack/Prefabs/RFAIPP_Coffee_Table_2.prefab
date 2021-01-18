@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4846374173998994}
   - component: {fileID: 33017933487086466}
   - component: {fileID: 23910304310811732}
-  - component: {fileID: 64440004546288126}
   - component: {fileID: 170252026159577817}
+  - component: {fileID: 58526140940537017}
   m_Layer: 0
   m_Name: RFAIPP_Coffee_Table_2
   m_TagString: Seleccion
@@ -81,20 +81,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64440004546288126
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1763530909158144}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300002, guid: 9c97f65119cc97748a56553178661016, type: 3}
 --- !u!54 &170252026159577817
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -111,3 +97,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!65 &58526140940537017
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763530909158144}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1992, y: 0.3501, z: 0.5414}
+  m_Center: {x: 0, y: 0.17604999, z: 0}
